@@ -23,4 +23,9 @@
     <ProjectReference Include="..\CoreBank.Domain\CoreBank.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\Impl\" />
+    <Folder Include="Repositories\Repo\" />
+  </ItemGroup>
+
 </Project>

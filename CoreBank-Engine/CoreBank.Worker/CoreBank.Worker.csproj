@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CoreBank.Application\CoreBank.Application.csproj" />
-    <ProjectReference Include="..\CoreBank.Infrastructure\CoreBank.Infrastructure.csproj" />
+    <ProjectReference Include="..\CoreBank.Infrastructure\CoreBank.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
