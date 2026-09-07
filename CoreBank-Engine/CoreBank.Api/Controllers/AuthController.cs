@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using CoreBank.Application.Services.Impl;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreBank.Api.Controllers
@@ -7,5 +8,11 @@ namespace CoreBank.Api.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
+        private readonly IUserServices _userServices;
+
+        public AuthController(IUserServices userServices)
+        {
+            _userServices = userServices;
+        }
     }
 }
